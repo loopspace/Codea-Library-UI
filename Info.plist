@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Andrew Stacey</string>
+	<key>Buffer Order</key>
+	<array>
+		<string>ChangeLog</string>
+		<string>Main</string>
+		<string>Button</string>
+		<string>ColourWheel</string>
+		<string>ColourPicker</string>
+		<string>NumberSpinner</string>
+		<string>CubicSelector</string>
+		<string>PictureBrowser</string>
+		<string>Keyboard</string>
+		<string>Keypad</string>
+		<string>Menu</string>
+		<string>Slider</string>
+		<string>PalmRest</string>
+		<string>FontPicker</string>
+		<string>ListSelector</string>
+		<string>UI</string>
+	</array>
+	<key>Created</key>
+	<date>2011-11-19T09:27:53Z</date>
+	<key>Dependencies</key>
+	<array>
+		<string>AutoGist</string>
+		<string>Codea Community Dev</string>
+		<string>CModule</string>
+	</array>
+	<key>Description</key>
+	<string>A library of classes and functions for user interface.</string>
+	<key>Project</key>
+	<string>Library UI</string>
+	<key>Version</key>
+	<real>2.0999999046325684</real>
+</dict>
+</plist>
