@@ -27,9 +27,11 @@ function PictureBrowser:setList(t)
         img = readImage(d .. ":" .. v)
         if f(v,img.width,img.height) then
             w = 100*math.min(1,img.width/img.height)
-            table.insert(ims,{img,w})
+            table.insert(ims,{d .. ":" .. v,w})
             c = c + 1
         end
+        img = nil
+        collectgarbage()
     end
     if self.camera then
         img = image(self.width,self.height)
