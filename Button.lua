@@ -16,6 +16,7 @@ function Button:init(t)
     self.orient = t.orient or false
     self.active = t.active
     self.tactive = t.active
+    self.colour = t.colour or t.color or color(40,40,50,127)
     if t.contents then
         if type(t.contents) == "string" then
             self.contents = function()
@@ -38,7 +39,7 @@ function Button:draw()
     pushStyle()
     fontSize(self.fontsize)
     ellipseMode(RADIUS)
-    fill(40,40,50,127)
+    fill(self.colour)
     local x,y,mw,a = self.x,self.y,self.size,0
     if self.orient then
         if math.abs(Gravity.x) < math.abs(Gravity.y) then

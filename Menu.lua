@@ -423,7 +423,7 @@ function Menu:processTouches(g)
                         end
                     end
                 end
-                    if self.items[n].disable() then
+                    if self.items[n] and self.items[n].disable() then
                         self.highlight = -1
                     else
                         self.highlight = n
